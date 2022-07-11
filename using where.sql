@@ -1,0 +1,1 @@
+select table_name, tablespace_name from all_tables where tablespace_name is null order by 1 desc;

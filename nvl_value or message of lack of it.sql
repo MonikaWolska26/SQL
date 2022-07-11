@@ -1,0 +1,1 @@
+select distinct nvl(tablespace_name, 'brak') from all_tables order by 1 asc;

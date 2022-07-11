@@ -1,0 +1,1 @@
+select column_name from all_tab_columns offset 3 rows fetch next 3 rows only;
